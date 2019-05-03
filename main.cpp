@@ -24,7 +24,7 @@ main(int ac, const char* av[])
 
     cout << "Blockchain path: " << blockchain_path << '\n';
 
-    cout << "Monero Version: " << MONERO_VERSION_FULL << endl;
+    cout << "Pyrexcoin Version: " << MONERO_VERSION_FULL << endl;
 
     cout << "Initializaing MicroCore\n";
 

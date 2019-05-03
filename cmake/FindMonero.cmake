@@ -35,21 +35,21 @@
 
 
 if (NOT MONERO_DIR)
-    set(MONERO_DIR ~/monero)
+    set(MONERO_DIR ~/Pyrex)
 endif()
 
 message(STATUS MONERO_DIR ": ${MONERO_DIR}")
 
 set(MONERO_SOURCE_DIR ${MONERO_DIR}
-        CACHE PATH "Path to the root directory for Monero")
+        CACHE PATH "Path to the root directory for Pyrexcoin")
 
-# set location of monero build tree
+# set location of Pyrexcoin build tree
 set(MONERO_BUILD_DIR ${MONERO_SOURCE_DIR}/build/release/
-        CACHE PATH "Path to the build directory for Monero")
+        CACHE PATH "Path to the build directory for Pyrexcoin")
 
 
 set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${MONERO_BUILD_DIR}"
-        CACHE PATH "Add Monero directory for library searching")
+        CACHE PATH "Add Pyrexcoin directory for library searching")
 
 
 set(LIBS  cryptonote_core
