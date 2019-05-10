@@ -22,7 +22,7 @@ add_executable(${PROJECT_NAME}
 
 add_subdirectory(src/)
 
-target_include_directories(myxrmcore
+target_include_directories(mypyxcore
     PUBLIC  $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>)
 
 target_link_libraries(${PROJECT_NAME}

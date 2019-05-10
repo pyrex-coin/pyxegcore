@@ -18,16 +18,16 @@ Follow instructions in the following link:
 https://github.com/moneroexamples/monero-compilation/blob/master/README.md
 
 
-#### Compilation of the xmregcore
+#### Compilation of the pyxegcore
 
 ```bash
 
 # go to home folder if still in ~/monero
 cd ~
 
-git clone --recurse-submodules  https://github.com/moneroexamples/xmregcore.git
+git clone --recurse-submodules  https://github.com/pyrex-coin/pyxegcore.git
 
-cd xmregcore
+cd pyxegcore
 
 mkdir build && cd build
 

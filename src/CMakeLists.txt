@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(myxrmcore)
+project(mypyxcore)
 
 set(SOURCE_FILES
         MicroCore.h
@@ -43,12 +43,12 @@ set(LIBRARIES
 # make static library called libmyxrm
 # that we are going to link to
 # in the root CMakeLists.txt file
-add_library(myxrmcore
+add_library(mypyxcore
             STATIC
             ${SOURCE_FILES})
 
-target_link_libraries(myxrmcore
+target_link_libraries(mypyxcore
     PUBLIC ${LIBRARIES})
 
-add_library(XMREG::core ALIAS myxrmcore)
+add_library(XMREG::core ALIAS mypyxcore)
 
